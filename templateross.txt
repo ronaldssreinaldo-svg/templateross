@@ -1,0 +1,112 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                  CREATED BY ROSS DON'T REMOVE THE CREDITS
+          
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Source+Sans+Pro&display=swap');
+
+#rbacktomyoldways {
+  --post-width: 650px;
+  --image-size: 80px;
+  --accent: #dd8686;
+  --overlay-color: #787878;
+  --wrap-background-color: #ececec;
+  --wrap-text-color: #000;
+  --sub-text-color: #2a2a2a;
+  --sub-text-color-accent: #ececec;
+  --background-image: url("https://i.pinimg.com/originals/b9/2b/9e/b92b9edca6e9d5ea66319a49bbc7d077.jpg");
+}
+
+#rbacktomyoldways .rcontainer {
+  width: var(--post-width);
+  background: var(--background-image) fixed center/cover;
+  background-color: var(--overlay-color);
+  background-blend-mode: multiply;
+  position: relative;
+  padding: 25px;
+}
+
+#rbacktomyoldways .rheader {
+  position: relative;
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  text-align: justify;
+  font: 9px/150% 'Calibri';
+  color: var(--sub-text-color);
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+  padding: 60px 120px;
+}
+
+#rbacktomyoldways .rheader b {
+  color: var(--sub-text-color-accent);
+}
+
+#rbacktomyoldways .rwrap {
+  background: var(--wrap-background-color);
+}
+
+#rbacktomyoldways .rwrap > div:first-child {
+  position: relative;
+}
+
+#rbacktomyoldways .rtitle {
+  padding: 35px 35px 10px;
+  color: var(--accent);
+  text-align: left;
+  text-transform: uppercase;
+  font: bold 50px/100% 'Fjalla One';
+  letter-spacing: -1px;
+}
+
+#rbacktomyoldways a[href="https://is.gd/rossr"] img {
+  width: var(--image-size);
+  height: var(--image-size);
+  background: var(--wrap-background-color);
+  object-fit: cover;
+  border-radius: 100%;
+  padding: 8px;
+  border: 2px solid var(--accent);
+  position: absolute;
+  top: -40px;
+  right: 50px;
+}
+
+#rbacktomyoldways .rtxt {
+  padding: 20px 80px 60px;
+  font: 12.5px/180% 'Source Sans Pro';
+  letter-spacing: .2px;
+  text-align: justify;
+  color: var(--wrap-text-color);
+}
+
+#rbacktomyoldways .rtxt b {
+  color: var(--accent);
+}
+
+
+#rbacktomyoldways:after {
+  display: block;
+  content: "「R」";
+  font: bold 8px/12px 'Consolas';
+  color: #8e8e8e;
+  text-transform: uppercase;
+  opacity: .5;
+}
+
+#rbacktomyoldways:hover::after {
+  content: "「ROSS RESOURCES」";
+}
